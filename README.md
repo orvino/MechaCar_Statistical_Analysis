@@ -43,3 +43,13 @@ The t-tests on Lot 2 shows us while the mean of 1500 is on par to the specificat
 The t-tests on Lot 3 shows us while the mean of 1496 is on close to the specifications outlined, the p-value of 0.04 suggests that we can reject the null hypothesis and do have sufficient evidence to say that the true mean of PSI to all manufacturing lots is 1,500 lbs/sqin.
 
 <img width="425" alt="Screen Shot 2022-03-27 at 4 28 28 PM" src="https://user-images.githubusercontent.com/91889241/160302404-b3095e38-fa51-42f5-b01a-048cc980a16b.png">
+
+## **Deliverable 4**
+## *Study Design: MechaCar vs Competition*
+To further provide quantitative information between MechaCar and its performance against the competition, we need to look at what is important to consumers.  These tend to be cost, fuel efficiency and safety rating.  
+
+The null hypothesis would be True mean is not equal to lower cost, higher fuel efficiency, and safety rating.
+
+To accomplish this statistical test, I would implement the ANOVA test.  The ANOVA test is  suitable for dealing with large numerical data when comparing the means across more than two sample groups.  And more specifically, a one-way ANOVA test with the single dependent variable of cost to the independent variables of fuel efficiency and safety rating.
+
+Success in the statistical test will require data from as many car manufactures as possible.  I would limit to the United States, as it is the number one car buying country in the world, however, most of its regulations on fuel efficiency is dependent on the state of California as it is the number one car buyer in the US.  
